@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "url": "/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/api/users/{userId}/workLogs",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/users/{userId}/workLogs/{workLogId}",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "/api/users/{userId}/dashboard",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/admin/dashboard",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/admin/users",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/admin/users/{userId}",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "dashboard/admin/userManagement/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "admin",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/admin/workLogs/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "admin",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/workLogs/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/logWork/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    }
+  ]
+}
